@@ -64,7 +64,7 @@ const Projects = () => {
               >
                 <ProjectCard
                   title="ImageGenie"
-                  desc="An AI based Image generation website that generates images based on the user&apos;s input. It also can suggest random sentences to generate images from."
+                  desc="An AI based Image generation website that generates images based on the users input. It also can suggest random sentences to generate images from."
                   listItem={["MERN", "DALL-E", "Tailwind CSS"]}
                   gitlink=""
                   applink=""
