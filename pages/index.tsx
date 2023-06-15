@@ -4,6 +4,9 @@ import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Banner from '@/components/Banner';
 import About from '@/components/About';
+import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
@@ -23,9 +26,9 @@ export default function Home() {
           <div className='h-[88vh] w-full mx-auto p-4'> 
             <Banner/>
             <About/>
-            {/* Experience */}
-            {/* Projects */}
-            {/* Contact */}
+            <Experience/>
+            <Projects/>
+            <Contact/>
             {/* Footer */}
           </div>
         </div>

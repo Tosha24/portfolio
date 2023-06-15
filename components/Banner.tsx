@@ -34,7 +34,7 @@ const Banner = () => {
       initial={{opacity: 0}}
       animate={{opacity: 1}}
       transition={{duration: 0.5, delay: 0.8}}
-      className="text-base md:max-w-[650px] text-textDark font-medium">
+      className="text-base md:max-w-[650px] text-textDark font-medium text-justify">
         I am a 4th year Computer Engineering student. I am currently focused on
         developing my skills in data science and machine learning, while also
         gaining experience in web development.

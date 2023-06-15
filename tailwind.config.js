@@ -14,14 +14,14 @@ module.exports = {
     },
     extend: {
       screens: {
-        xs: "320px",    // Extra small
-        sm: "375px",    // Small
-        sml: "500px",   // Small landscape
-        md: "667px",    // Medium
-        mdl: "768px",   // Medium landscape
-        lg: "960px",    // Large
-        lgl: "1024px",  // Large landscape
-        xl: "1280px",   // Extra large
+        xs: "320px",    // Extra small(mobile-s)
+        sm: "375px",    // Small (mobile-m)
+        sml: "500px",   // Small landscape(mobile-l)
+        md: "667px",    // Medium (tablet)
+        mdl: "768px",   // Medium landscape(tablet)
+        lg: "960px",    // Large (13inch laptop)
+        lgl: "1024px",  // Large landscape (reg laptop)
+        xl: "1280px",   // Extra large(15inch laptop)
       },
       fontFamily: {
         bodyFont: ["Montserrat", "sans-serif"],
@@ -36,8 +36,20 @@ module.exports = {
         textLight: "#ccd6f6",
         textDark: "#8892b0",
         hoverColor: "rgba(100, 255, 218, 0.1)",
+        extraColor: "#5D8AA8",
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            'p': {
+              textAlign: 'justify',
+            },
+          },
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
