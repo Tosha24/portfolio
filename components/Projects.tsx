@@ -20,7 +20,7 @@ const Projects = () => {
           >
             <ProjectCard
               title="MovieMate"
-              desc="A Machine Learning based Movie Recommendation System. It recommends movies based on the user's input and the movie's genres, cast, director, etc."
+              desc="A Machine Learning based Movie Recommendation System. It recommends movies based on the user&apos;s input and the movie&apos;s genres, cast, director, etc."
               listItem={["ML", "Pandas", "Numpy", "Streamlit"]}
               gitlink="https://github.com/Tosha24/movie-recommendation"
               applink="https://tosha24-movie-recommendation-main-osz07d.streamlit.app/"
@@ -64,7 +64,7 @@ const Projects = () => {
               >
                 <ProjectCard
                   title="ImageGenie"
-                  desc="An AI based Image generation website that generates images based on the user's input. It also can suggest random sentences to generate images from."
+                  desc="An AI based Image generation website that generates images based on the user&apos;s input. It also can suggest random sentences to generate images from."
                   listItem={["MERN", "DALL-E", "Tailwind CSS"]}
                   gitlink=""
                   applink=""

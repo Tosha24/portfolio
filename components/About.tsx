@@ -11,9 +11,9 @@ const About = () => {
       <SectionTitle title="ABOUT ME" titleNo="01" />
         <div>
           <p className="text-justify tracking-wide font-medium text-textDark flex-row">
-            Hello, I'm a{" "}
+            Hello, I&apos;m a {" "}
             <span className="text-textGreen">Computer Engineer</span> based in
-            India. As a student pursuing a Bachelor' degree, I am committed to
+            India. As a student pursuing a Bachelor&apos;s degree, I am committed to
             using data to gain valuable insights that drive informed
             decision-making. I am currently focused on developing my skills in
             <span className="text-textGreen">
@@ -31,7 +31,7 @@ const About = () => {
             collaboratively with teams to solve complex problems. In addition to
             my technical skills, I possess a very{" "}
             <span className="text-textGreen"> good communication </span> and{" "}
-            <span className="text-textGreen"> problem solving </span>. If you're
+            <span className="text-textGreen"> problem solving </span>. If you&apos;re
             looking for someone who is adaptable, result-driven, and committed
             to excellence, please feel free to{" "}
             <span className="text-textGreen hover:underline hover:-transition-x-2 duration-700 cursor-pointer">

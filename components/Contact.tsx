@@ -46,9 +46,9 @@ const Contact = () => {
       </motion.h2>
       <motion.p initial="hidden" animate={controls} variants={animationVariants} transition={{duration: 1.0, delay: 0.3}} className="max-w-[600px] text-center text-textDark">
         <span className="text-textGreen">Looking for interships</span> and
-        oppurtunities to grow. If you're looking for someone who is{" "}
-        <span className="text-textGreen">adaptable </span>,{" "}
-        <span className="text-textGreen">result-driven</span> and committed to
+        oppurtunities to grow. If you&apos;re looking for someone who is {" "}
+        <span className="text-textGreen">adaptable</span>, {" "}
+        <span className="text-textGreen"> result-driven</span> and committed to
         excellence, please feel free to connect with me.
       </motion.p>
       <motion.button initial="hidden" animate={controls} variants={animationVariants} transition={{duration: 1.0, delay: 0.4}}
