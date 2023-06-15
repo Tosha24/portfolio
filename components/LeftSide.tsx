@@ -1,4 +1,3 @@
-import React from 'react';
 import { TbBrandGithub } from 'react-icons/tb';
 import { SlSocialLinkedin } from 'react-icons/sl';
 import { SiLeetcode, SiHackerrank } from 'react-icons/si';
