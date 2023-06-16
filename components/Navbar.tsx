@@ -31,8 +31,8 @@ const Navbar = () => {
     e.currentTarget.classList.add("active");
   };
 
-  function handleClick(e:any) {
-    if(e.target.contains(ref.current)){
+  function handleClick(e: any) {
+    if (e.target.contains(ref.current)) {
       setShowMenu(false);
     }
   }
@@ -123,7 +123,10 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/resume.pdf" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/142G0CDcjTUV1F6kLLDN1ltfsnW1CIAoF/view?usp=sharing"
+            target="_blank"
+          >
             <motion.button
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -239,11 +242,12 @@ const Navbar = () => {
                     Resume
                   </motion.button>
                 </a>
-                <motion.div 
-                initial={{opacity: 0, x: 20}}
-                animate={{opacity: 1, x: 0}}
-                transition={{duration: 0.2, delay: 0.7, ease: "easeIn"}}
-                className="flex gap-4">
+                <motion.div
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
+                  className="flex gap-4"
+                >
                   <a
                     href="https://github.com/Tosha24"
                     target="_blank"
