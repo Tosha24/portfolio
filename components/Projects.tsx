@@ -51,7 +51,7 @@ const Projects = () => {
               desc="A personal portfolio website for showcasing my skills and projects. Details about my work experience and contact are also included. Web development project."
               listItem={["NextJS 13", "Framer", "Tailwind CSS"]}
               gitlink="https://github.com/Tosha24/portfolio"
-              applink=""
+              applink="https://portfolio-tosha24.vercel.app/"
             />
           </motion.div>
 
@@ -66,10 +66,11 @@ const Projects = () => {
                   title="ImageGenie"
                   desc="An AI based Image generation website that generates images based on the users input. It also can suggest random sentences to generate images from."
                   listItem={["MERN", "DALL-E", "Tailwind CSS"]}
-                  gitlink=""
-                  applink=""
+                  gitlink="https://github.com/Tosha24/ImageGenie"
+                  applink="https://github.com/Tosha24/ImageGenie#readme"
                 />
               </motion.div>
+
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -79,7 +80,7 @@ const Projects = () => {
                   title="Chatify"
                   desc="A Chat Application that allows users to chat personally with each other and also in group in real time."
                   listItem={["NextJS 13", "Prisma", "Tailwind CSS", "MongoDB"]}
-                  gitlink=""
+                  gitlink="https://github.com/Tosha24/Chatify"
                   applink=""
                 />
               </motion.div>
@@ -93,8 +94,23 @@ const Projects = () => {
                   title="RestroRush"
                   desc="A basic web development website design for restuarants for online-ordering and food delivery. No backend, only simple frontend design."
                   listItem={["HTML", "CSS", "JS", "Bootstrap"]}
-                  gitlink=""
-                  applink=""
+                  gitlink="https://github.com/Tosha24/RestoRush"
+                  applink="https://github.com/Tosha24/RestoRush"
+                />
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.7 }}
+              >
+                <ProjectCard
+                  title="Tic-Tac-Toe"
+                  desc="A classic game of X's and O's, a battle of wits and rows,
+                  Three in a line, victory is divine, A simple Tic Tac Toe game that brings joy that grows!"
+                  listItem={["React.js", "Tailwind CSS", "Javascript"]}
+                  gitlink="https://github.com/Tosha24/tic-tac-toe"
+                  applink="https://tic-tac-toe33.netlify.app/"
                 />
               </motion.div>
             </>

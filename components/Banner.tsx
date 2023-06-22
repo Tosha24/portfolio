@@ -67,11 +67,9 @@ const Banner = () => {
       initial={{opacity: 0}}
       animate={{opacity: 1}}
       transition={{duration: 0.5, delay: 0.9}}
-      className='border rounded-md w-52 h-14 text-sm text-textGreen border-textGreen tracking-wide font-titleFont hover:bg-hoverColor duration-300'>Check out my Projects!</motion.button>
+      className='border rounded-md w-52 h-14 text-sm text-textGreen border-textGreen tracking-wide font-titleFont hover:bg-hoverColor duration-300'><a href="https://github.com/tosha24" target='_blank'>Check out my Projects!</a></motion.button>
     </section>
   );
 };
 
 export default Banner;
-
-// absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500

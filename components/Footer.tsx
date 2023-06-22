@@ -27,9 +27,3 @@ const Footer = () => {
 }
 
 export default Footer;
-
-
-
-
-
-// div: hidden mdl: inline-flex xl:hidden items-center justify-center w-full py-6 gap-4
