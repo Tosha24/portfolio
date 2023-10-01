@@ -19,6 +19,34 @@ const Projects = () => {
             transition={{ delay: 0.1 }}
           >
             <ProjectCard
+              title="EZ-Invoice"
+              desc="A free and useful tool for businesses to create and manage invoices. The website can used by small scale businesses to generate and track their invoices at one place."
+              listItem={["NextJs", "Tailwind CSS", "Mongoose", "MongoDB"]}
+              gitlink="https://github.com/Tosha24/EZ-Invoice"
+              applink="#"
+            />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.1 }}
+          >
+            <ProjectCard
+              title="Weather App"
+              desc="It provides weather information for user's geolocation. User can search for any city for current weather conditions, forecasts, and other additional details like temperature, wind, humidity, etc."
+              listItem={["Vite+React.js", "Tailwind CSS", "OpenWeatherMapAPI"]}
+              gitlink="https://github.com/Tosha24/WeatherApp"
+              applink="https://weather-app-panicletech.netlify.app/"
+            />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.1 }}
+          >
+            <ProjectCard
               title="MovieMate"
               desc="A Machine Learning based Movie Recommendation System. It recommends movies based on the user&apos;s input and the movie&apos;s genres, cast, director, etc."
               listItem={["ML", "Pandas", "Numpy", "Streamlit"]}
@@ -38,6 +66,20 @@ const Projects = () => {
               listItem={["ML", "Pandas", "Numpy", "Streamlit"]}
               gitlink="https://github.com/Tosha24/movie-recommendation"
               applink="https://tosha24-movie-recommendation-main-osz07d.streamlit.app/"
+            />
+          </motion.div>
+          
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.2 }}
+          >
+            <ProjectCard
+              title="Churn Prediciton"
+              desc="A ML based Customer Churn Prediction. The stores can use this to predict which customers are likely to churn and take particular actions to retain them."
+              listItem={["ML", "Pandas", "Numpy"]}
+              gitlink="https://github.com/Tosha24/Customer-Churn-Prediction"
+              applink="#"
             />
           </motion.div>
 
@@ -81,7 +123,7 @@ const Projects = () => {
                   desc="A Chat Application that allows users to chat personally with each other and also in group in real time."
                   listItem={["NextJS 13", "Prisma", "Tailwind CSS", "MongoDB"]}
                   gitlink="https://github.com/Tosha24/Chatify"
-                  applink=""
+                  applink="#"
                 />
               </motion.div>
 
