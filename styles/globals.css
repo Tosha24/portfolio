@@ -6,3 +6,14 @@
 .active{
     color: #64ffda;
 }
+
+.my-scrollbar::-webkit-scrollbar {
+    width: var(--scrollbar-width, 2px);
+    height: var(--scrollbar-height, 2px);
+}
+
+.my-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-background, "#ccd6f6") ;
+    border-radius: var(--scrollbar-thumb-border-radius, 5px);
+    border: var(--scrollbar-thumb-border, 3px solid #ccd6f6);
+}

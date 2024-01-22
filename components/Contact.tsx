@@ -1,4 +1,6 @@
-import React, { useRef, useEffect } from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -45,7 +47,7 @@ const Contact = () => {
         Get In Touch
       </motion.h2>
       <motion.p initial="hidden" animate={controls} variants={animationVariants} transition={{duration: 1.0, delay: 0.3}} className="max-w-[600px] text-center text-textDark">
-        <span className="text-textGreen">Looking for interships</span> and
+        <span className="text-textGreen">Looking for full-time jobs</span> and
         oppurtunities to grow. If you&apos;re looking for someone who is {" "}
         <span className="text-textGreen">adaptable</span>, {" "}
         <span className="text-textGreen"> result-driven</span> and committed to
