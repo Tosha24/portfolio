@@ -38,13 +38,13 @@ const About = () => {
       <SectionTitle title="ABOUT ME" titleNo="01" />
       <div>
         <p className="text-justify tracking-wide font-medium text-textDark flex-row">
-          Hello, I'm a{" "}
+          Hello, I&apos;m a{" "}
           <span className="text-textGreen">Full Stack Developer</span> based in
-          India. With a Bachelor's degree in Computer Engineering, I have a
-          strong foundation in Jaavscript, Java, Python,. C and C++. Currently,
-          I am honing my expertise in{" "}
+          India. With a Bachelor&apos;s degree in Computer Engineering, I have a
+          strong foundation in Javascript, Java, Python, C and C++. Currently, I
+          am honing my expertise in{" "}
           <span className="text-textGreen">
-            React.js, Next.js, Tailwind CSS, TypeScript, Javascript, Redux
+            React.js, Next.js, Tailwind CSS, Typescript, Javascript, Redux
             Toolkit, HTML, and CSS
           </span>{" "}
           while gaining practical experience in{" "}
@@ -57,9 +57,9 @@ const About = () => {
           a proven track record of solving complex problems effectively. Beyond
           technical proficiency, I excel in{" "}
           <span className="text-textGreen">communication</span> and{" "}
-          <span className="text-textGreen">problem-solving</span>. If you're
-          seeking an adaptable, results-oriented professional dedicated to
-          excellence, please don't hesitate to{" "}
+          <span className="text-textGreen">problem-solving</span>. If
+          you&apos;re seeking an adaptable, results-oriented professional
+          dedicated to excellence, please don&apos;t hesitate to{" "}
           <span className="text-textGreen hover:underline hover:-transition-x-2 duration-700 cursor-pointer">
             <a href="#contact">connect</a>
           </span>{" "}
