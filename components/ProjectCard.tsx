@@ -24,7 +24,7 @@ const ProjectCard = ({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.1 }}
-      className="w-full border h-[400px] rounded-lg bg-[#112240] p-2 flex flex-col justify-center hover:-translate-y-2 transition-transform duration-300 gap-1"
+      className="w-full border h-[400px] rounded-lg bg-transparent p-2 flex flex-col justify-center hover:-translate-y-2 transition-transform duration-300 gap-1"
     >
       <div className="flex justify-between items-center h-[30px]">
         <a href={`${gitlink}`} target="_blank">
@@ -38,12 +38,14 @@ const ProjectCard = ({
         <h2 className="text-2xl font-titleFont font-semibold tracking-wide text-textLight group-hover:text-textGreen duration-300">
           {title}
         </h2>
-        <h3 className='text-md text-textLight/80'>{subTitle}</h3>
+        <h3 className="text-lg font-bold">{subTitle}</h3>
       </div>
       <div className="overflow-y-auto my-scrollbar min-h-[200px] px-2">
         <ul className="flex flex-col gap-1 text-sm text-justify list-disc break-words list-inside text-textDark overflow-x-hidden">
           {desc.map((item, index) => (
-            <li key={index} className="list-disc">{item}</li>
+            <li key={index} className="list-disc font-[500]">
+              {item}
+            </li>
           ))}
         </ul>
       </div>

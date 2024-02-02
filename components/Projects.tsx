@@ -41,8 +41,8 @@ const Projects = () => {
               "MongoDB",
               "Cloudinary",
             ]}
-            gitlink="https://github.com/Tosha24/EZ-Invoice"
-            applink="#"
+            gitlink="https://github.com/Tosha24/MERN_E-Commerce"
+            applink="https://mern-e-commerce-pi.vercel.app/"
           />
         </motion.div>
 

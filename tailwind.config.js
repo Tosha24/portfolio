@@ -7,21 +7,21 @@ module.exports = {
   ],
   theme: {
     maxWidth: {
-      container: "1440px", 
-      contentContainer: "1140px", 
+      container: "1440px",
+      contentContainer: "1140px",
       containerSmall: "1024px",
       containerxs: "768px",
     },
     extend: {
       screens: {
-        xs: "320px",    // Extra small(mobile-s)
-        sm: "375px",    // Small (mobile-m)
-        sml: "500px",   // Small landscape(mobile-l)
-        md: "667px",    // Medium (tablet)
-        mdl: "768px",   // Medium landscape(tablet)
-        lg: "960px",    // Large (13inch laptop)
-        lgl: "1024px",  // Large landscape (reg laptop)
-        xl: "1280px",   // Extra large(15inch laptop)
+        xs: "320px", // Extra small(mobile-s)
+        sm: "375px", // Small (mobile-m)
+        sml: "500px", // Small landscape(mobile-l)
+        md: "667px", // Medium (tablet)
+        mdl: "768px", // Medium landscape(tablet)
+        lg: "960px", // Large (13inch laptop)
+        lgl: "1024px", // Large landscape (reg laptop)
+        xl: "1280px", // Extra large(15inch laptop)
       },
       fontFamily: {
         bodyFont: ["Montserrat", "sans-serif"],
@@ -41,16 +41,13 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            'p': {
-              textAlign: 'justify',
+            p: {
+              textAlign: "justify",
             },
           },
         },
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('tailwind-scrollbar'),
-  ],
+  plugins: [require("@tailwindcss/typography"), require("tailwind-scrollbar")],
 };

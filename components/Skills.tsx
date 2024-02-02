@@ -1,14 +1,24 @@
+import Image from "next/image";
+
 interface Props {
   skill: string;
+  imgUrl?: any;
 }
 
-const Skills = ({ skill }: Props) => {
+const Skills = ({ skill, imgUrl }: Props) => {
   return (
-    <a href="#">
-      <p className="border border-textDark px-6 py-2 rounded-lg text-md tracking-wide bg-transparent text-textDark hover:text-textGreen hover:border-textGreen font-medium duration-300 hover:-translate-y-1 transition-all">
-        {skill}
-      </p>
-    </a>
+    <div>
+      <div className="flex items-center gap-2 bg-hoverColor p-2 rounded-full">
+        <Image
+          src={imgUrl}
+          alt={skill}
+          className="w-20 h-20 rounded-full object-contain"
+          width={64}
+          style={{ contain: "content" }}
+          height={64}
+        />
+      </div>
+    </div>
   );
 };
 
