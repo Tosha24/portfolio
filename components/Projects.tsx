@@ -46,6 +46,34 @@ const Projects = () => {
           />
         </motion.div>
 
+         <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.1 }}
+        >
+          <ProjectCard
+            title="Evently"
+            subTitle="Event Management Website"
+            desc={[
+              "Build an event organization web app like Eventbrite or Meetup",
+              "It includes features like authentication, event management, search, filtering, categories, checkout, and payments using Next JS 14, Tailwind CSS, Shadcn, React Hook Form, Zod, Uploadthing, React-Datepicker, Mongoose, Clerk, and Stripe.",
+            ]}
+            listItem={[
+              "Next.js",
+              "Tailwind CSS",
+              "ShadCN", 
+              "Zod",
+              "Uploadthing",
+              "MongoDB",
+              "Clerk",
+              "Stripe",
+
+            ]}
+            gitlink="https://github.com/Tosha24/Event-Management"
+            applink="hevently-event-management.vercel.app/"
+          />
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
