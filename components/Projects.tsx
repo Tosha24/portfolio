@@ -20,6 +20,32 @@ const Projects = () => {
         transition={{ duration: 0.5 }}
         className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10"
       >
+         <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.1 }}
+        >
+          <ProjectCard
+            title="Repixify"
+            subTitle="Free AI Content Creation Tools"
+            desc={[
+              "Repixify - An AI based text and content generation website that provides AI tools for creating compelling content for social media, blogs, digital marketing, business and more.",
+              "Our tools are designed to help you save time, boost your creativity, and enhance your content quality.",
+              "Whether you're a seasoned content creator or just starting out, Repixify has the tools you need to succeed. Explore our wide array of tools and unleash your creativity today!",
+            ]}
+            listItem={[
+              "Next.js",
+              "Tailwind CSS",
+              "Google's Gemini API",
+              "Typescript",
+              "Shadcn",
+
+            ]}
+            gitlink="https://github.com/tejasp2003/repixify"
+           
+            applink="https://repixify.com"
+          />
+        </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
